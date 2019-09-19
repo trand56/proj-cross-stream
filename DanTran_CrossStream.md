@@ -38,7 +38,8 @@ If the Remote model is chosen, then I can use some of my knowledge in UI design 
 ## Background
 The project will not necessarily based on rabb.it but this is the github page:
 - https://github.com/Rabbit-Inc
-However the github could be useful for any references.
+
+**The github could be useful for any references.**
 
 
 ## Required Resources
