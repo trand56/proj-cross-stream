@@ -7,15 +7,20 @@ There will be one HOST that streams image data to a server or directly to peer.
 The peers will pull those image data, buffers them, and display them on their screens.
 
 **The first model is the PEER-TO-PEER model:**
-
+![UC-UML P2P](DanTran_CrossStream-1.png)
 
 The downside to the P2P model is that it will probably require users to port forward or use a vpn.
 
 
-**The second model is the REMOTE model:**
 
+
+**The second model is the REMOTE model:**
+![UC-UML P2P](DanTran_CrossStream-2.png)
 
 The downside to the REMOTE model is that remote servers are expensive and a reliable custom remote server is difficult to set up.
+
+
+
 
 
 ## Project Relevance
