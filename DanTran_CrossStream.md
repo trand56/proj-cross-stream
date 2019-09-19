@@ -25,20 +25,23 @@ The downside to the REMOTE model is that remote servers are expensive and a reli
 
 ## Project Relevance
 This project can be very simple or very complicated. There are room for working with remote servers (like AWS), front end & back end, multi-threading, and networking. 
-Not only is it flexible, but it is also useful. The video streaming site https://www.rabb.it/ recently went down and that is what inspired me to propose this project.
+Not only is it flexible, but it is also useful. As shown from the lifetime of rabb.it, people loved the idea of streaming videos with their friends online.
+The video streaming site https://www.rabb.it/ recently went down and that is what inspired me to propose this project.
 
 Since the project will start from scratch, most, if not all, of these goals will be met:
-- Project Management 
-- Version Control
-- Build 
-- Test 
-- Issue Tracking  
+**Project Management:** The project could get too large in scale so project management will involve idealizing the deadline of each features, and which features are realistic and what to be changed.
+**Version Control:** There will be different versions like P2P or Remote implementation. Also different versions will be pushed constantly if we follow AGILE.
+**Build:** Builds will be of baselines.
+**Test:** This project will involve many individual components that could be tested using Unit testing.
+**Issue Tracking:** GitHub will be used.
 
 
 ## Conceptual Design
-The networking part and data communication is possible because I have some background on Peer-to-Peer networking along with live data streaming.
-If the Remote model is chosen, then I can use some of my knowledge in UI design and also live data streaming.
+The barebone idea is that a client (assumed HTTP) will act as a host. 
+In a Peer-to-Peer implementation, the host will listen for connections from other clients. Once a connection is established, the host will begin streaming image data to the peers.
+In a Remote implementation, the host will also listen for connections but a bit differently. When hosts connect, they will send metadata to a Remote server. Clients who wants to connect to a host will check the remote server to see if the host exist to establish connection. Hosts will then post images to the remote server and clients will pull from them.
 
+Personally, I do not have experience in communications through remote servers but I do have experience in dealing with web clients and peer to peer connections.
 
 ## Background
 The project will not necessarily based on rabb.it but this is the github page:
