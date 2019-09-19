@@ -23,11 +23,11 @@ This project can be very simple or very complicated. There are room for working 
 Not only is it flexible, but it is also useful. The video streaming site https://www.rabb.it/ recently went down and that is what inspired me to propose this project.
 
 Since the project will start from scratch, most, if not all, of these goals will be met:
-– Project Management 
-– Version Control
-– Build 
-– Test 
-– Issue Tracking  
+- Project Management 
+- Version Control
+- Build 
+- Test 
+- Issue Tracking  
 
 
 ## Conceptual Design
