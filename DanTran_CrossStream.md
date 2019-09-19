@@ -37,8 +37,10 @@ Since the project will start from scratch, most, if not all, of these goals will
 
 
 ## Conceptual Design
-The barebone idea is that a client (assumed HTTP) will act as a host. 
+The general idea is that a client (assumed simple HTTP client) will act as a host. 
+
 In a Peer-to-Peer implementation, the host will listen for connections from other clients. Once a connection is established, the host will begin streaming image data to the peers.
+
 In a Remote implementation, the host will also listen for connections but a bit differently. When hosts connect, they will send metadata to a Remote server. Clients who wants to connect to a host will check the remote server to see if the host exist to establish connection. Hosts will then post images to the remote server and clients will pull from them.
 
 Personally, I do not have experience in communications through remote servers but I do have experience in dealing with web clients and peer to peer connections.
