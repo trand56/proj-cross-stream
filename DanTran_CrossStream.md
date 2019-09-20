@@ -6,6 +6,10 @@ This project will allow users to stream videos or surf the web with each other.
 There will be one HOST that streams image data to a server or directly to peer.
 The peers will pull those image data, buffers them, and display them on their screens.
 
+This project will be useful for friends to watch movies or TV shows together. There are services like this in Discord APP and Skype screenshare...however they are not optimized for this type of video streaming activity. 
+
+There are two models on how this project will pan out:
+
 **The first model is the PEER-TO-PEER model:**
 ![UC-UML P2P](DanTran_CrossStream-1.png)
 
